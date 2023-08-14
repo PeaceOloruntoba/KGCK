@@ -1,0 +1,20 @@
+header{
+    width: 100%;
+    background: #02173E;
+    color: white;
+    font-size: larger;
+    font-weight: 800;
+}
+img{
+    padding: 4px;
+}
+.header{
+    padding: 8px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

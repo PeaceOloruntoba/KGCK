@@ -122,6 +122,16 @@ hr {
     background: rgba(192, 214, 255, 0.4);
 }
 
+.title-p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.title-pp{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 .service-list {
     display: flex;
     justify-content: center;

@@ -1,41 +1,48 @@
-header{
+header {
     width: 100%;
     background: #02173E;
     color: white;
     font-size: larger;
     font-weight: 800;
 }
-img{
+
+img {
     padding: 4px;
 }
-.header{
+
+.header {
     padding: 8px;
     justify-content: space-around;
     align-items: center;
     display: flex;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
-button{
+
+button {
     background: #074AC7;
     border: none;
     color: white;
     padding: 1rem;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
-    font-size: 1.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1rem;
 }
-ul{
+
+ul {
     display: flex;
 }
-li{
+
+li {
     list-style: none;
     color: #074AC7;
     margin-right: 50px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +50,7 @@ li{
     font-size: larger;
     font-weight: 500;
 }
+
 .intro {
     position: relative;
     display: grid;
@@ -57,6 +65,7 @@ li{
     height: 100%;
     overflow: hidden;
 }
+
 .intro-det {
     position: absolute;
     top: 0;
@@ -67,6 +76,7 @@ li{
     padding: 8rem;
     color: white;
 }
+
 .over {
     position: absolute;
     top: 0;
@@ -75,55 +85,102 @@ li{
     height: 100%;
     background: linear-gradient(89.76deg, #020202 0.97%, rgba(217, 217, 217, 0) 159.41%);
 }
+
 .intro-det-a {
     font-weight: 700;
     font-size: 3.5rem;
 }
+
 .intro-det-b,
 .intro-det-c {
     margin-left: 20px;
     margin-top: 20px;
 }
-.about{
+
+.about {
     display: flex;
     padding: 8rem;
     justify-content: center;
     align-items: center;
 }
-.about-left{
+
+.about-left {
     margin-right: 3rem;
 }
-.about-right{
+
+.about-right {
     margin-left: 3rem;
 }
-hr{
+
+hr {
     width: 4rem;
     color: #0f0b0b;
 }
-.service{
-    background: #dbdbdb;
-    padding: 8rem;
+
+.service {
+    padding: 6rem;
+    background: rgba(192, 214, 255, 0.4);
 }
-.sevrice-p{
-    display: grid;
-    position: absolute;
+
+.service-list {
+    display: flex;
     justify-content: center;
-    color: white;
-    align-items: center;
 }
-.brands{
+
+.service-list-item {
+    position: relative;
+    margin: 20px;
+}
+
+.service-list-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.sevrice-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(89.76deg, #020202 0.97%, rgba(217, 217, 217, 0) 159.41%);
+    opacity: 0.8;
+    /* Adjust the overlay opacity as needed */
+}
+
+.sevrice-i {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sevrice-p {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.brands {
     text-align: center;
     width: 100%;
     padding: 8rem;
     font-size: 2rem;
 }
-.testimonial{
+
+.testimonial {
     display: flex;
     padding: 8rem;
     align-items: center;
     justify-content: space-around;
+    background: rgba(175, 235, 249, 1);
 }
-.intro-dett{
+
+.intro-dett {
     position: absolute;
     padding: 6rem;
     width: 100%;
@@ -132,53 +189,61 @@ hr{
     text-align: center;
     color: white;
 }
-.introoo{
+
+.introoo {
     position: relative;
-    display: block;
     justify-content: center;
 }
-.book-img img{
+
+.book-img img {
     width: 100vw;
     position: absolute;
 }
+
 .over {
     position: absolute;
     width: 100vw;
     height: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 346.09%);
 }
-.mtt{
-    margin-top: 2rem;
+
+.mtt {
     justify-content: center;
 }
-.footer{
+
+.footer {
     background: rgba(2, 23, 62, 1);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 2rem;
     color: white;
-    margin-top: 19.8rem;
+    margin-top: 20rem;
+    padding-top: 10rem;
 }
-.brands-im{
+
+.brands-im {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 2rem;
 }
-.footer-three-main{
+
+.footer-three-main {
     display: flex;
 }
-input{
+
+input {
     border: none;
     background: rgba(175, 235, 249, 1);
     height: 2rem;
 }
-.div{
-    display: flex;
-}
-.button{
-    padding: 0;
+
+.div {
     display: flex;
 }
 
+.button {
+    padding: 0;
+    display: flex;
+}

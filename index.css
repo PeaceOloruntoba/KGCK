@@ -18,3 +18,145 @@ a{
     text-decoration: none;
     color: white;
 }
+button{
+    background: #074AC7;
+    border: none;
+    color: white;
+    padding: 1rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 1.5rem;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    color: #074AC7;
+    margin-right: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+    font-weight: 500;
+}
+.intro {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.intro-det {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 8rem;
+    color: white;
+}
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(89.76deg, #020202 0.97%, rgba(217, 217, 217, 0) 159.41%);
+}
+.intro-det-a {
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.intro-det-b,
+.intro-det-c {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.about{
+    display: flex;
+    padding: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+.about-left{
+    margin-right: 3rem;
+}
+.about-right{
+    margin-left: 3rem;
+}
+hr{
+    width: 4rem;
+    color: #0f0b0b;
+}
+.service{
+    background: #dbdbdb;
+    padding: 8rem;
+}
+.sevrice-p{
+    display: grid;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.brand{
+    text-align: center;
+    width: 100%;
+    padding: 8rem;
+    padding-bottom: 1rem;
+}
+.testimonial{
+    display: flex;
+    padding: 8rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro-dett{
+    position: absolute;
+    padding: 8rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.introoo{
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+.book-img img{
+    width: 100vw;
+    position: absolute;
+}
+.over {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 346.09%);
+}
+.mtt{
+    margin-top: 2rem;
+    justify-content: center;
+}
+.footer{
+    background: rgba(2, 23, 62, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8rem;
+}
+
+

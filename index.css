@@ -218,14 +218,6 @@ hr {
     transform: translateY(-50%);
 }
 
-.mtt {
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
 .footer {
     background: rgba(2, 23, 62, 1);
     display: flex;
@@ -233,7 +225,7 @@ hr {
     align-items: center;
     padding: 2rem;
     color: white;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .brands-im {

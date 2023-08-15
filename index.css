@@ -156,9 +156,9 @@ hr{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 6rem;
+    padding: 2rem;
     color: white;
-    margin-top: 19.9rem;
+    margin-top: 19.8rem;
 }
 .brands-im{
     display: flex;
@@ -169,5 +169,16 @@ hr{
 .footer-three-main{
     display: flex;
 }
-
+input{
+    border: none;
+    background: rgba(175, 235, 249, 1);
+    height: 2rem;
+}
+.div{
+    display: flex;
+}
+.button{
+    padding: 0;
+    display: flex;
+}
 

@@ -94,7 +94,7 @@ li {
 
 .about {
     display: flex;
-    padding: 8rem;
+    padding: 6rem;
     justify-content: center;
     align-items: center;
 }
@@ -208,7 +208,7 @@ hr {
     width: 100%;
     text-align: center;
     color: white;
-    transform: translateY(-50%);
+    transform: translateY(50%);
 }
 
 .footer {

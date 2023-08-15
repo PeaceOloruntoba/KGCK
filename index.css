@@ -190,35 +190,40 @@ hr {
     background: rgba(192, 214, 255, 0.4);
 }
 
-.intro-dett {
-    position: absolute;
-    padding: 6rem;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
-
 .introoo {
     position: relative;
+    display: flex;
     justify-content: center;
 }
 
 .book-img img {
-    width: 100vw;
-    position: absolute;
+    width: 100%;
 }
 
 .over {
     position: absolute;
-    width: 100vw;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 346.09%);
 }
 
+.intro-dett {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 50%; /* Vertically center the content */
+    transform: translateY(-50%);
+}
+
 .mtt {
-    justify-content: center;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .footer {
@@ -228,7 +233,6 @@ hr {
     align-items: center;
     padding: 2rem;
     color: white;
-    margin-top: 20rem;
     padding-top: 10rem;
 }
 

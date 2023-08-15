@@ -151,7 +151,6 @@ hr {
     height: 100%;
     background: linear-gradient(89.76deg, #020202 0.97%, rgba(217, 217, 217, 0) 159.41%);
     opacity: 0.8;
-    /* Adjust the overlay opacity as needed */
 }
 
 .sevrice-i {
@@ -209,7 +208,6 @@ hr {
     width: 100%;
     text-align: center;
     color: white;
-    top: 50%; /* Vertically center the content */
     transform: translateY(-50%);
 }
 

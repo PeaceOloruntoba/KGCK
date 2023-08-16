@@ -99,6 +99,11 @@ li {
     align-items: center;
 }
 
+.about-left,
+.about-right {
+    flex: 1;
+}
+
 .about-left {
     margin-right: 3rem;
 }
@@ -183,6 +188,17 @@ hr {
     justify-content: space-around;
     background: rgba(192, 214, 255, 0.4);
 }
+
+.left{
+    flex: 1;
+}
+
+.right{
+    flex: 1;
+    background: #ffffff;
+}
+
+
 
 .introoo {
     position: relative;

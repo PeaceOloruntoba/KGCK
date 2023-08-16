@@ -19,7 +19,6 @@ img {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 button {
@@ -122,12 +121,12 @@ hr {
     background: rgba(192, 214, 255, 0.4);
 }
 
-.title-p{
+.title-p {
     font-size: 1rem;
     font-weight: 500;
 }
 
-.title-pp{
+.title-pp {
     font-size: 2rem;
     font-weight: 600;
 }
@@ -189,9 +188,10 @@ hr {
     background: rgba(192, 214, 255, 0.4);
 }
 
-.left{
+.left {
     flex: 1;
 }
+
 .right {
     background-color: white;
     padding: 2rem;
@@ -305,4 +305,25 @@ input {
 .button {
     padding: 0;
     display: flex;
+}
+
+.a{
+    color: white;
+}
+
+.bi{
+    padding: .6rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bill{
+    background: #074AC7;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+}
+
+.bill a{
+    color: white;
 }

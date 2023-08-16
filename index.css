@@ -192,13 +192,57 @@ hr {
 .left{
     flex: 1;
 }
-
-.right{
+.right {
+    background-color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     flex: 1;
-    background: #ffffff;
 }
 
+.quote {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 4rem;
+    color: #333;
+}
 
+.right-text {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 2rem;
+}
+
+.right-profile {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 1rem;
+}
+
+.right-profile span:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.right-profile span:nth-child(2) {
+    font-size: 1rem;
+    color: #666;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.right-nav img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
 
 .introoo {
     position: relative;

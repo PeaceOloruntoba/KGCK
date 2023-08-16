@@ -50,10 +50,8 @@ li {
     position: relative;
     display: grid;
     justify-content: center;
-    width: 100vw;
     height: 100vh;
     background-image: url('./assets/intro.png');
-    background-size: cover;
 }
 
 .intro-det {
